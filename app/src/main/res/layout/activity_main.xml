@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_Logo"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="Logo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Adivina el Número!"
+            android:layout_marginBottom="20dp"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:background="#3F51B5"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:elevation="4dp" />
+
+        <ImageView
+            android:id="@+id/img_Icono"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:contentDescription="Icono"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icono" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adivina un número entre 1 y 100"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="#332D2D"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/txt_Numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe tu número aquí"
+            android:inputType="number"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:textColorHint="#6A6666"
+            android:layout_marginBottom="20dp"
+            android:elevation="2dp" />
+
+        <Button
+            android:id="@+id/btn_Adivinar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADIVINAR"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2756E7"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tv_Suerte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Buena suerte 🍀!"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:textColor="#361176"
+            android:elevation="2dp"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+</ScrollView>
