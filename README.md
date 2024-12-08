@@ -18,6 +18,11 @@ Un juego sencillo para adivinar un número secreto entre 1 y 100.
     <img src="https://github.com/Erick-Puni/Juego-Adivina-El-Numero/blob/main/assets/img4.jpg" alt="Pantalla 4" width="200">
 </div>
 
+## 📲 Descargar el APK
+
+Puedes descargar el APK desde el siguiente enlace:  
+[Descargar APK](https://github.com/Erick-Puni/Juego-Adivina-El-Numero/tree/main/apk)
+
 ## ⚙️ Requisitos del Sistema
 
 - **SDK mínimo**: 21 (Android 5.0 Lollipop)
@@ -30,3 +35,4 @@ Un juego sencillo para adivinar un número secreto entre 1 y 100.
 2. Abre el proyecto en Android Studio.
 3. Sincroniza el proyecto con Gradle.
 4. Ejecuta la aplicación en un emulador o dispositivo físico.
+
